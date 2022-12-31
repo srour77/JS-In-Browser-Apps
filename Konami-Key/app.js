@@ -1,7 +1,7 @@
 let seq = [];
 const pass = '38384040373937399998';
-console.log(pass.length)
 let mainDiv = document.querySelector('.main')
+window.addEventListener('keyup', detectKey)
 
 function detectKey(ev) {
     seq.push(String(ev.keyCode));
@@ -12,5 +12,3 @@ function detectKey(ev) {
         mainDiv.style.display = 'none'
     }
 }
-
-window.addEventListener('keyup', detectKey)
