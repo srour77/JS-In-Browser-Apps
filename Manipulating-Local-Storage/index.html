@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="enter local staorage key">
+        <a href="#">add local staorage value</a>
+        <input type="text" placeholder="enter local staorage value">
+        <div class="control">
+            <button id="retrived" data-fun="getItem">check item</button>
+            <button id="added" data-fun="setItem">add item</button>
+            <button id="reomved" data-fun="removeItem">delete item</button>
+            <button id="setted" data-fun="setItem">update item</button>
+            <button class="show-items">show items</button>
+        </div>
+        
+        <div class="result">
+            <span></span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
